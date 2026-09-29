@@ -147,6 +147,12 @@ filter_features() - Remove low abundance features by number of counts and number
 
 <hr>
 
-![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png?raw=true)
+![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+Licensed under the **Creative Commons Attribution-ShareAlike 4.0 International** licence —
+see [`LICENSE`](LICENSE) for the full text, and [`NOTICE.md`](NOTICE.md) for attribution and
+the relicensing history.
+
+Attribute the work to *VIB Nucleomics Core*, and licence derived work under the same terms.
+Relicensed on 2026-08-27; copies obtained before that date remain available to their
+holders under the previous CC BY-SA 3.0 terms.
