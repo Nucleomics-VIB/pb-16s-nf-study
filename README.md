@@ -80,13 +80,13 @@ nextflow run main.nf --help
   --version    Output version
 ```
 
-## Zymo D6305 pb-16S-nf_tutorial
+## Zymo D6305 pb-16s-nf-study
 
 Pacbio 16S data analysis using the Pacbio **pb-16S-nf** nextflow pipeline and reads from 5 *ZymoBIOMICS Microbial Community DNA Standard* samples replicates ([ref](https://www.zymoresearch.com/collections/zymobiomics-microbial-community-standards/products/zymobiomics-microbial-community-dna-standard)).
 
-The **[Zymo_pb-16S-nf.pdf](https://github.com/Nucleomics-VIB/pb-16S-nf_tutorial/blob/main/Zymo_pb-16S-nf.pdf)** document describes installing and running the pipeline on 5 samples produced in the lab and using v0.4 of the pipeline (commit:763d542c5c82adb6cff769e253ebc15f61d765cb). It rephrases most of the content of the original repo and comments on the used tools.
+The **[Zymo_pb-16S-nf.pdf](https://github.com/Nucleomics-VIB/pb-16s-nf-study/blob/main/Zymo_pb-16S-nf.pdf)** document describes installing and running the pipeline on 5 samples produced in the lab and using v0.4 of the pipeline (commit:763d542c5c82adb6cff769e253ebc15f61d765cb). It rephrases most of the content of the original repo and comments on the used tools.
 
-The results of running the pipeline on five of our Zymo samples are also uploaded here in **[Zymo-SequelIIe-Hifi_results_local](https://github.com/Nucleomics-VIB/pb-16S-nf_tutorial/tree/main/Zymo-SequelIIe-Hifi_results_local)** for review
+The results of running the pipeline on five of our Zymo samples are also uploaded here in **[Zymo-SequelIIe-Hifi_results_local](https://github.com/Nucleomics-VIB/pb-16s-nf-study/tree/main/Zymo-SequelIIe-Hifi_results_local)** for review
 
 
 **Note:** the pipeline sets automatically the parameter ``--rarefaction_depth``to keep 80% of the samples and returns the obtained value in ``rarefaction_depth_suggested.txt``. When the user wants all samples retained, review of the ``alpha-rarefaction-curves.qzv``object in the **Qiime2 viewer** will allow defining a better value for that cutoff and rerun the pipeline with the addition of ``--rarefaction_depth <optimal value>`` 
